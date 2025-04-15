@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="LoginTest" verbose="1">
+    <!--    name - любое понятное, verbose - уровень логирования (1 минимальный)-->
+    <test name="Login">
+        <classes>
+            <class name="demo_web_shop.tests.LoginTests">
+<!--                <methods>-->
+<!--                    <exclude name=".*Negative.*"> </exclude>-->
+<!--                </methods>-->
+            </class>
+        </classes>
+    </test>
+
+</suite>
